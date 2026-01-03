@@ -3,6 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0.0
 // @description  For planning your returns route
+// @author       DJ-Ames
 // @match        *://www.menards.com/*
 // @match        *://menards.com/*
 // @grant        GM_getValue
