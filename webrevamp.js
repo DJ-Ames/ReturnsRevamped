@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Returns List
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  For planning your returns route
 // @author       DJ-Ames
 // @match        *://www.menards.com/*
@@ -860,8 +860,8 @@
             if (countEl) countEl.textContent = `${list.length} item(s)`;
             const notesCountEl = document.getElementById("mnNotesCount");
             if (notesCountEl) {
-                const notesCount = notesCount();
-                notesCountEl.textContent = notesCount > 0 ? ` · ${notesCount} note(s)` : "";
+                const count = notesCount();
+                notesCountEl.textContent = count > 0 ? ` · ${count} note(s)` : "";
             }
         };
 
