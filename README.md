@@ -29,7 +29,7 @@ INSTRUCTIONS
 Use a browser that can install one of the below extensions:
 Tampermonkey (The only one currently tested)
 Violentmonkey
-Userscrips (safari)
+Userscripts (safari)
 
 Create a New Script on the script extension
 
